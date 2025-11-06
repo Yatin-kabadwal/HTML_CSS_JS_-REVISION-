@@ -5,3 +5,11 @@ function callMYname(){
 }
 
 callMYname()
+
+alert("Welcome to my world!")
+
+
+function changeText() {
+    document.getElementById("heading").innerText="You clicked the button!";
+    alert("Text changed successfully!");
+}

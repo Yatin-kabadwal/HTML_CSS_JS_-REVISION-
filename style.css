@@ -1,19 +1,97 @@
-body{
-    text-align: center;
-    justify-content: center;
-    align-items: center;
-    background-color: lightblue;
+/* General page styling */
+body {
+  background-color: #f5f5f5;       /* light grey background */
+  font-family: Arial, sans-serif;  /* clean readable font */
+  text-align: center;              /* center heading text */
+  margin: 0;                       /* remove default spacing */
+  padding: 20px;                   /* add some space around */
 }
 
-.container{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 20px;
+/* Heading styling */
+.title {
+  color: #333;
+  font-size: 2rem;
+  margin-bottom: 30px;
 }
 
-.box{
-    background: coral;
-    padding: 20px;
-    border-radius: 10px;
+/* Flexbox container */
+.container {
+  display: flex;                   /* enable flexbox */
+  justify-content: center;         /* center boxes horizontally */
+  align-items: center;             /* center boxes vertically */
+  gap: 30px;                       /* space between boxes */
+  flex-wrap: wrap;                 /* wrap on small screens */
+  height: 70vh;                    /* occupy 70% of screen height */
 }
+
+/* Individual box styling */
+.box {
+  background-color: #ff9f43;       /* orange background */
+  color: white;                    /* white text */
+  font-size: 1.5rem;               /* larger text */
+  font-weight: bold;               /* make text bold */
+  width: 200px;                    /* box width */
+  height: 150px;                   /* box height */
+  border-radius: 12px;            /* rounded corners */
+  display: flex;                   /* flex again inside box */
+  justify-content: center;         /* center text horizontally */
+  align-items: center;             /* center text vertically */
+  box-shadow: 0 4px 10px rgba(0,0,0,0.2); /* soft shadow */
+  transition: transform 0.3s;      /* smooth animation */
+}
+
+/* Hover effect */
+.box:hover {
+  transform: scale(1.1);           /* make it slightly bigger */
+  background-color: #e67e22;       /* darker orange on hover */
+}
+ 
+
+/* General page styling */
+body {
+  background-color: #f5f5f5;       /* light grey background */
+  font-family: Arial, sans-serif;  /* clean readable font */
+  text-align: center;              /* center heading text */
+  margin: 0;                       /* remove default spacing */
+  padding: 20px;                   /* add some space around */
+}
+
+/* Heading styling */
+.title {
+  color: #333;
+  font-size: 2rem;
+  margin-bottom: 30px;
+}
+
+/* Flexbox container */
+.container {
+  display: flex;                   /* enable flexbox */
+  justify-content: center;         /* center boxes horizontally */
+  align-items: center;             /* center boxes vertically */
+  gap: 30px;                       /* space between boxes */
+  flex-wrap: wrap;                 /* wrap on small screens */
+  height: 70vh;                    /* occupy 70% of screen height */
+}
+
+/* Individual box styling */
+.box {
+  background-color: #ff9f43;       /* orange background */
+  color: white;                    /* white text */
+  font-size: 1.5rem;               /* larger text */
+  font-weight: bold;               /* make text bold */
+  width: 200px;                    /* box width */
+  height: 150px;                   /* box height */
+  border-radius: 50px;             /* rounded corners */
+  display: flex;                   /* flex again inside box */
+  justify-content: center;         /* center text horizontally */
+  align-items: center;             /* center text vertically */
+  box-shadow: 0 4px 10px rgba(0,0,0,0.2); /* soft shadow */
+  transition: transform 0.3s;      /* smooth animation */
+}
+
+/* Hover effect */
+.box:hover {
+  transform: scale(1.1);           /* make it slightly bigger */
+  background-color: #20a7d0;       /* darker orange on hover */
+}
+
