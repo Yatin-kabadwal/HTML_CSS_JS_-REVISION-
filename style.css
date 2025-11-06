@@ -1,7 +1,5 @@
-h1{
-    color: magenta;
-    background-color: royalblue;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    font-weight: 300;
-    font-size: larger;
+body{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
 }
