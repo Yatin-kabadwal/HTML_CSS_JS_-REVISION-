@@ -13,3 +13,34 @@ function changeText() {
     document.getElementById("heading").innerText="You clicked the button!";
     alert("Text changed successfully!");
 }
+
+let name = "Yatin kabadwal"
+const age = 21;
+var city = "Dehradun";
+
+console.log(name);
+
+let x = 10;
+let y = 5;
+console.log(x+y); //15
+console.log(x>y) //true
+console.log(x<y) //false 
+
+let num = 18;
+if (num >=20){
+    console.log("You are an adult");
+}else{
+    console.log("You are a minor.");
+}
+
+// Now will work on the loops 
+
+for (let i=1; i<=5; i++){
+    console.log("Number's: ",i);
+}
+
+
+
+//will work on the while loop
+
+let i = 1
