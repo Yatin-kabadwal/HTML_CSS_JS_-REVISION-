@@ -24,3 +24,16 @@ setInterval(updateClock, 1000);
 
 // Show clock immediately on page load
 updateClock();
+
+
+var a = 10;
+if(a == "10"){
+  console.log("they are equal ")
+}
+
+if (a === "10"){
+console.log("they are same");
+}
+else{
+  console.log("The type is totally different")
+}
