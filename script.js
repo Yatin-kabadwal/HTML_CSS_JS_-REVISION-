@@ -60,3 +60,19 @@ console.log(greetName("Yatin"));
 function change(){
     document.getElementById("title").innerText = "New Text!";
 }
+
+var a = 20 ;
+if (a == 10) {
+    document.write("A is equal to 10");
+
+}
+else if (a ==15){
+    document.write("A is equal to 15");
+}
+else if(a ==20){
+    document.write("A is equal to 20");
+}
+else{
+    document.write("A is not equal to any of the value");
+}
+
