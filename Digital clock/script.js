@@ -37,3 +37,4 @@ console.log("they are same");
 else{
   console.log("The type is totally different")
 }
+
