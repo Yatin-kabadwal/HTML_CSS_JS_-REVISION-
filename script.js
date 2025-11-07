@@ -76,3 +76,11 @@ else{
     document.write("A is not equal to any of the value");
 }
 
+
+function invert(){
+    document.getElementById("change").innerText = "You did it!"
+}
+
+function changecolor(){
+    document.getElementById("change").style.color = "Blue";
+}
