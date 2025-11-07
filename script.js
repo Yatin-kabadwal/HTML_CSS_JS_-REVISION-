@@ -37,6 +37,7 @@ if (num >=20){
 
 for (let i=1; i<=5; i++){
     console.log("Number's: ",i);
+    document.write(i+"<br/>")
 }
 
 
@@ -44,3 +45,18 @@ for (let i=1; i<=5; i++){
 //will work on the while loop
 
 let i = 1
+
+
+
+//Starting wiht the functions in js
+
+function greetName(name){
+    return "Hello, "+name;
+}
+
+console.log(greetName("Yatin"));
+
+
+function change(){
+    document.getElementById("title").innerText = "New Text!";
+}
