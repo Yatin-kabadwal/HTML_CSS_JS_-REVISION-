@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!-- <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -14,4 +14,56 @@
 </div>
     <script src="script.js"></script>
 </body>
-</html> 
+</html>  -->
+
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>To-Do List App</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <main class="app">
+      <header class="app-header">
+        <h1 class="app-title">To-Do List</h1>
+        <p class="app-sub">
+          Add tasks, mark complete, delete, and your tasks will be saved.
+        </p>
+      </header>
+
+      <!-- FORM: add new task -->
+      <form id="task-form" class="task-form" aria-label="Add new task">
+        <input
+          type="text"
+          id="task-input"
+          class="task-input"
+          placeholder="Add a new task..."
+          aria-label="Task description"
+          required
+          maxlength="200"
+        />
+        <button type="submit" class="add-btn" aria-label="Add task">Add</button>
+      </form>
+
+      <!-- LIST: tasks appear here -->
+      <section>
+        <ul id="task-list" class="task-list" aria-live="polite"></ul>
+      </section>
+
+      <footer class="app-footer">
+        <button id="clear-completed" class="muted-btn">Clear completed</button>
+        <button id="clear-all" class="danger-btn">Clear all</button>
+      </footer>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>
