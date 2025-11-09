@@ -30,7 +30,7 @@ var a = 10;
 if(a == "10"){
   console.log("they are equal ")
 }
-
+ 
 if (a === "10"){
 console.log("they are same");
 }
